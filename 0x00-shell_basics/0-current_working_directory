@@ -1,2 +1,2 @@
-#!/bin/bash
+21#!/bin/bash
 echo "$(readlink -f "$0")"
