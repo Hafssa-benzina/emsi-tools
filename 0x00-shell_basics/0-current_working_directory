@@ -1,3 +1,2 @@
-#!/bin/sh
-current_directory=$(readlink -f "$0")
-echo "$current_directory"
+#!/bin/bash
+echo "$(readlink -f "$0")"
